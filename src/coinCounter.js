@@ -14,16 +14,16 @@ input *= 100
   else {
     if (input >= 25) {
       this.quarter = (Math.floor(input / 25))
-      return this.coinCounter(input % 25 /100)
+      return this.coinCounter(input % 25 / 100)
     } else if (input >= 10) {
       this.dime = Math.floor(input / 1)
-      return this.coinCounter(input % 10 /100)
+      return this.coinCounter(input % 10 / 100)
     } else if (input >= 5) {
       this.nickel = Math.floor(input / 5)
-      return this.coinCounter(input % 5 /100)
+      return this.coinCounter(input % 5 / 100)
     } else if (input >= 1) {
       this.penny = Math.floor(input / 1)
-      return this.coinCounter(input % 1/100)
+      return this.coinCounter(input % 1 / 100)
     }
   }
 }
